@@ -1,3 +1,4 @@
+
 const initialTime = 75;
 var highScoresArr = [];
 var time = initialTime;
@@ -204,7 +205,7 @@ function loadHighScores() {
   highScoresArr = JSON.parse(highScores);
 }
 
-// FUNCTION to reset HTML display for the score
+// RESET DISPLAY SCORE
 var recordsHtmlReset = function () {
   highScoreHolder.innerHTML = "";
   highScoresArr.sort(function (a, b) {
@@ -231,11 +232,16 @@ var errorIndicator = function () {
 };
 
 /* EVENT LISTENERS */
-viewHighSoreEl.addEventListener("click", highScoreButtonHandler);
+ viewHighSoreEl.addEventListener("click", highScoreButtonHandler);
+
 getAnElement("#reset").addEventListener("click", resetButtonHandler);
+
 startEl.addEventListener("click", startQuizButtonHandler);
+
 quizholderEl.addEventListener("click", quizanswerButtonHandler);
+
 recordsEl.addEventListener("click", recordsButtonHandler);
+
 getAnElement("#clearScores").addEventListener("click",clearScoresButtonHandler);
 
-loadHighScores();
+loadHighScores(); 
