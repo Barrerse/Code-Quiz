@@ -8,7 +8,7 @@ html,body{
   }
 
 header {
-    background-color: #f47321;
+    background-color: #005030;
 }
   
   #highScores div div{
@@ -57,7 +57,7 @@ header {
   
   #scores{
     left:40px;
-    background-color: #005030;
+    background-color:  #f47321;
     color: white;
   }
   
@@ -71,7 +71,7 @@ header {
   
   
   button{
-    background-color:#005030;
+    background-color:#f47321;
     color:white;
     border: none;
     padding:5px;
@@ -90,7 +90,7 @@ header {
   
   
   #quizHolder button{
-    background-color:#005030;
+    background-color: #f47321;
     border-radius:5px;
     color:white;
     margin: 3px 0;
@@ -106,8 +106,8 @@ header {
   }
   
   #scoreIndicator, #errorIndicator{
-    border-top: 1px solid #f47321;
-    color: #005030;
+    border-top: 1px solid #005030;
+    color: #f47321;
     font-size: 1.3em;
     margin: 0;
     font-style: italic;
