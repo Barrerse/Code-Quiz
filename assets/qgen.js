@@ -1,34 +1,34 @@
 // The following will generate the questions as objects within an array
 var questions = [
     {
-      title: "Following are the JavaScript Data types:",
-      choices: ["Numbers", "String", "Boolean", "Object","Undefined","All of the above"],
-      answer: "All of the above"
+      title: "Inside which HTML element do we put the JavaScript?",
+      choices: ["<javascript>", "<scripting>", "<script>", "<js>","None of the above"],
+      answer: "<script>"
     },
     {
-      title: "The condition in an if / else statement is enclosed within ____.",
-      choices: ["quotes", "curly brackets", "parentheses", "square brackets"],
-      answer: "parentheses"
+      title: "Where is the correct place to insert a JavaScript?",
+      choices: ["Both the <head> section and the <body> section are correct", "The <body> section", "The <head> section"],
+      answer: "Both the <head> section and the <body> section are correct"
     },
     {
-      title: "True or False, isNan function returns true if the argument is not a number; otherwise, it is false.",
+      title: "True or False, The external JavaScript file must contain the <script> tag.",
       choices: ["True", "False", "N/A"],
-      answer: "True"
+      answer: "False"
     },
     {
-      title: "True or False, 'This' keyword refers to the object from where it was called.",
-      choices: ["True", "False","N/A"],
-      answer: "True"
+      title: "How do you write 'Hello World' in an alert box?",
+      choices: ["alertBox('Hello World');  ", "msgBox('Hello World');","alert('Hello World');", "msg('Hello World');"],
+      answer: "alert('Hello World');  "
     },
     {
-        title: "_______is a complete programming language. In contrast, _________ is a coded program that can be introduced to HTML pages. These two languages are not at all inter-dependent and are designed for different intent.",
-        choices: ["Javascript/Script", "BootStrap/Java", "Java/Javascript", "None of the listed"],
-        answer: "Java/Javascript"
+        title: "How do you create a function in JavaScript?",
+        choices: ["function myFunction() ", "function = myFunction()", "function:myFunction()", "function == myFunction() "],
+        answer: "function myFunction()  "
       },
     {
-        title: "_____ checks only for equality in value, whereas ______is a stricter equality test and returns false if either the value or the type of the two variables are different.",
-        choices: ["!=,<=", "==,>=", "===,==", "==,==="],
-        answer: "==,==="
+        title: "How to write an IF statement in JavaScript?",
+        choices: ["if i = 5 ", "if (i == 5)", "if i == 5 then", "if i = 5 then"],
+        answer: "if (i == 5)  "
      },  
     {
         title: "What is a valid Timer piece of code ?",
