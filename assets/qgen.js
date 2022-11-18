@@ -6,9 +6,9 @@ var questions = [
       answer: "<script>"
     },
     {
-      title: "Where is the correct place to insert a JavaScript?",
+      title: "Where is the correct place to insert a JavaScript link?",
       choices: ["Both the <head> section and the <body> section are correct", "The <body> section", "The <head> section"],
-      answer: "Both the <head> section and the <body> section are correct"
+      answer: "The <body> section"
     },
     {
       title: "True or False, The external JavaScript file must contain the <script> tag.",
@@ -40,4 +40,5 @@ var questions = [
         choices: ["Contains", "Almost Equivalant", "Partially Equal", "Strictly Equal"],
         answer: "Strictly Equal"
      },     
+     
   ];
