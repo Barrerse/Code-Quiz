@@ -45,5 +45,18 @@ All credits go to the [Univertisy of Miami Bootcamp](https://bootcamp.miami.edu/
 
 You can see the website [here](https://barrerse.github.io/Code-Quiz/)
 
+![image](https://user-images.githubusercontent.com/108836644/202741183-ac5b0d35-872a-4f50-a565-f7bd38c7fab9.png)
+
+![image](https://user-images.githubusercontent.com/108836644/202741244-4209bd30-c3b9-41b4-8450-dc0f6e9382c5.png)
+
+![image](https://user-images.githubusercontent.com/108836644/202742953-29756f7c-b19d-4626-8ae8-6f9488536977.png)
+
+
+
+
+
+
+
+
 
 
