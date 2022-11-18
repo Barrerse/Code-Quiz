@@ -7,7 +7,7 @@ var qCount = 0;
 var timeset;
 var clock;
 var viewHighSoreEl = document.querySelector("#info");
-var timeEl = viewHighSoreEl.querySelector("#time");
+var timeEl = document.querySelector("#time");
 var startEl = document.querySelector("#intro button");
 var quizholderEl = document.querySelector("#quizHolder");
 var questionHolderEl = document.querySelector("#questionHolder");
@@ -232,7 +232,7 @@ var errorIndicator = function () {
 };
 
 /* EVENT LISTENERS */
- viewHighSoreEl.addEventListener("click", highScoreButtonHandler);
+ document.addEventListener("click", highScoreButtonHandler);
 
 getAnElement("#reset").addEventListener("click", resetButtonHandler);
 
