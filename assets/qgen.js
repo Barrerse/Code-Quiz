@@ -18,17 +18,17 @@ var questions = [
     {
       title: "How do you write 'Hello World' in an alert box?",
       choices: ["alertBox('Hello World');  ", "msgBox('Hello World');","alert('Hello World');", "msg('Hello World');"],
-      answer: "alert('Hello World');  "
+      answer: "alert('Hello World');"
     },
     {
         title: "How do you create a function in JavaScript?",
-        choices: ["function myFunction() ", "function = myFunction()", "function:myFunction()", "function == myFunction() "],
-        answer: "function myFunction()  "
+        choices: ["function myFunction() ", "function = myFunction()", "function:myFunction()", "function == myFunction()"],
+        answer: "function myFunction()"
       },
     {
         title: "How to write an IF statement in JavaScript?",
-        choices: ["if i = 5 ", "if (i == 5)", "if i == 5 then", "if i = 5 then"],
-        answer: "if (i == 5)  "
+        choices: ["if i = 5", "if (i == 5)", "if i == 5 then", "if i = 5 then"],
+        answer: "if (i == 5)"
      },  
     {
         title: "What is a valid Timer piece of code ?",
@@ -36,7 +36,7 @@ var questions = [
         answer: "setInterval(function, delay)"
      },
      {
-        title: " What is === operator?",
+        title: "What is === operator?",
         choices: ["Contains", "Almost Equivalant", "Partially Equal", "Strictly Equal"],
         answer: "Strictly Equal"
      },     
